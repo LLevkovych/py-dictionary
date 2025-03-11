@@ -1,5 +1,5 @@
 class Dictionary:
-    def __init__(self, size: int = 10) -> None:
+    def __init__(self, size: int = 8) -> None:
         self.size = size
         self.table = [None] * self.size
         self.count = 0
